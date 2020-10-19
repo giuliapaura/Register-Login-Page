@@ -1,0 +1,126 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+nav {
+    background-color: #9BE2E8;
+    display: flex;
+    padding: 20px;
+}
+
+a {
+    color: #283D44;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 700;
+}
+a:hover {
+    color: #F25C54;
+}
+
+button {
+    border-radius: 25px;
+    border: none;
+    padding: 5px 20px;
+    background-color: #283D44;
+    color: white;
+    text-transform: uppercase;
+}
+button:hover {
+   background-color:  #F25C54;
+   cursor: pointer;
+}
+input {
+    border: none;
+    border-bottom: 2px solid #283D44;
+    background-color: transparent;
+}
+input:focus {
+    outline:none;
+    border-bottom: 2px solid #F25C54;
+    
+}
+button:focus {
+    outline:none;
+}
+::placeholder{
+    color: #73b5bb;
+}
+
+
+nav ::placeholder {
+    color: white;
+}
+
+main {
+    text-align: center;
+    font-size: 70px;
+  font-weight: 800;
+  padding: 50px 100px;
+  color: #283D44;
+}
+
+.form {
+    display: flex;
+    align-self: flex-end;
+    align-items: baseline;
+    position: absolute;
+    right: 20px;
+}
+.signup-container {
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 50px;
+    
+}
+.form-message {
+    color:#F25C54;
+    font-size: 30px;
+
+}
+.login-message, .edit-message {
+    color:#F25C54;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.success {
+    color: #54bb82;
+}
+
+#login-sub-button {
+    margin-right: 15px;
+}
+
+.profile-text {
+    font-size: 30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    main {
+        
+        font-size: 25px;
+      text-align: center;
+      padding: 50px 20px;
+      
+    }
+
+    button {
+        display: block;
+        
+    }
+    nav {
+        background-color: #9BE2E8;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+  }
+  
+
+
+
+
